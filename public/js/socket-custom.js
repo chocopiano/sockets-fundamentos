@@ -1,4 +1,4 @@
-var socket = io(server);
+var socket = io();
 //escuchar
 socket.on('connect', () => {
     console.log('Conectados con el servidor');
